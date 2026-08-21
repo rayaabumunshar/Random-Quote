@@ -1,0 +1,25 @@
+{
+  "name": "random-qoute",
+  "version": "1.0.0",
+  "description": "Simple Random Quote application for practicing CI/CD with GitHub Actions, Docker and Render.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --check server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayaabumunshar/Random-Qoute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rayaabumunshar/Random-Qoute/issues"
+  },
+  "homepage": "https://github.com/rayaabumunshar/Random-Qoute#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
