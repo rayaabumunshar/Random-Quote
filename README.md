@@ -1,28 +1,37 @@
-# Random-Quote
+# Random Quote App
 
-Simple Random Quote application for practicing CI/CD with GitHub Actions, Docker and Render. 
+A simple web application that displays random quotes using an external API.
 
-## CI/CD Pipeline
+The project was built as a small hands-on example of a modern CI/CD workflow using GitHub Actions, Docker, and Render.
 
+## Features
 
+- Fetch and display a random quote
+- Display the quote's author
+- Get a new quote with one click
+- Simple and lightweight user interface
+- Automatically tested and deployed through CI/CD
 
-\- \*\*CI\*\*: Runs on every Pull Request and push to `main` — installs dependencies, runs tests, and builds the Docker image.
+## Tech Stack
 
-\- \*\*CD\*\*: After a successful merge to `main`, the `deploy` job triggers a Render deploy via a secured Deploy Hook (stored in GitHub Actions secrets).
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express
+- **External API:** DummyJSON
+- **Containerization:** Docker
+- **CI/CD:** GitHub Actions
+- **Deployment:** Render
 
+## How It Works
 
-
-\## Team Contributions
-
-\- Member 1: Backend (Express API) + initial CI
-
-\- Member 2: Frontend + Dockerfile + Docker CI verification
-
-\- Member 3: Render deployment + Continuous Deployment (CD)
-
-
-
-\## Live URL
-
-https://random-quote-rir8.onrender.com/
-
+```text
+User
+  ↓
+Frontend
+  ↓
+Express Backend
+  ↓
+External Quote API
+  ↓
+Random Quote
+  ↓
+Frontend
