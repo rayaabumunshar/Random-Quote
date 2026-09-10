@@ -35,7 +35,7 @@ External Quote API
 Random Quote
   ↓
 Frontend
-
+```
 ## Link
 https://random-quote-rir8.onrender.com/
 
